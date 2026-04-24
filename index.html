@@ -177,7 +177,98 @@
     </div>
 
 </div>
+<style>
+/* 整体列表 */
+.pub-list {
+    margin: 0;
+    padding: 0;
+}
 
+/* 每一条 */
+.pub-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 22px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #eee;
+}
+
+/* 左侧图片 */
+.pub-img {
+    width: 200px;
+    border-radius: 8px;
+    margin-right: 18px;
+}
+
+/* 标题 */
+.pub-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    text-decoration: none;
+}
+
+.pub-title:hover {
+    color: #1677ff;
+}
+
+/* 作者 */
+.pub-authors {
+    font-size: 13px;
+    color: #444;
+    margin-top: 4px;
+}
+
+/* 期刊 */
+.pub-venue {
+    font-size: 13px;
+    color: #000;
+    margin-top: 6px;
+}
+
+/* badge 通用 */
+.badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 6px;
+    margin-left: 6px;
+}
+
+/* Q1 */
+.badge-q1 {
+    background: linear-gradient(90deg, #ff4d4f, #ff7875);
+    color: white;
+}
+
+/* IF */
+.badge-if {
+    background: #f0f5ff;
+    color: #2f54eb;
+    border: 1px solid #adc6ff;
+}
+
+/* NEW 标签 */
+.badge-new {
+    background: #52c41a;
+    color: white;
+    margin-right: 6px;
+}
+
+/* 链接 */
+.pub-links a {
+    font-size: 13px;
+    margin-right: 10px;
+    color: #1677ff;
+    text-decoration: none;
+}
+
+.pub-links a:hover {
+    text-decoration: underline;
+}
+</style>
+    
 <main role="main" class="container blank-container">
     <div class="row mx-0 mx-lg-2">
         <div class="col-md-10 website-main">
@@ -325,7 +416,36 @@
                         </div>
                     </li>
 
+                    <ul class="pub-list">
+
+                    <li class="pub-item">
+                        <img class="pub-img" src="images/ESWA.png">
                     
+                        <div>
+                            <div>
+                                <span class="badge badge-new">NEW</span>
+                                <a class="pub-title" href="https://doi.org/10.1016/j.eswa.2026.131146">
+                                    Beyond Feature Mapping: Dual-Heterogeneous Knowledge Distillation with Mamba for Industrial Anomaly Detection
+                                </a>
+                            </div>
+                    
+                            <div class="pub-authors">
+                                <b>Muhao Xu</b>, Zihan Nie, Baochen Fu, Zhuangzhuang Chen, Zijian Li, Hua Wei, Yi Wan and Weiye Song
+                            </div>
+                    
+                            <div class="pub-venue">
+                                <strong>Expert Systems With Applications</strong>
+                                <span class="badge badge-q1">JCR Q1</span>
+                                <span class="badge badge-if">IF 6.5</span>
+                            </div>
+                    
+                            <div class="pub-links">
+                                <a href="https://doi.org/10.1016/j.eswa.2026.131146">[Paper]</a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    </ul>
                     <li class="media">
                         <img class="mr-3 img-thumbnail" src="images/JBHI.png" width="200" alt="">
                         <div class="media-body">
