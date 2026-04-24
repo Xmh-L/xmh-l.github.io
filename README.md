@@ -1,2 +1,3 @@
-Welcome to my personal homepage:  
-[Personal Website](https://xmh-l.github.io/)
+## Welcome
+
+[Homepage](https://xmh-l.github.io/)
